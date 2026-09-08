@@ -1,12 +1,8 @@
-from functions import printHeader
+from functions import mainMenu
 import os
 
+print(mainMenu.exec())
+
+input()
 os.system("cls")
-
-printHeader.printHeader()
-
-input("\n  ( Press any key to continue ) ")
-
-os.system("cls")
-
 exit()
