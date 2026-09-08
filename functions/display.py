@@ -1,6 +1,6 @@
 import os
 
-def exec():
+def displayMainMenu():
     os.system("cls")
     print(r"""
  ___________ _     ___  ______  ___
@@ -18,7 +18,7 @@ def exec():
     try:
         int(userinput)
     except:
-        return exec()
+        return displayMainMenu()
 
     userinput = int(userinput)
     if userinput > 0 and userinput < 5:
@@ -33,4 +33,10 @@ def exec():
                 os.system("cls")
                 exit()
     else:
-        return exec()
+        return displayMainMenu()
+    
+def displayModMenu():
+    return True
+
+def displayConfigMenu():
+    return True

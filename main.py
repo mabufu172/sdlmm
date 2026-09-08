@@ -1,8 +1,8 @@
-from functions import mainMenu
 import os
+from functions.display import *
+from functions.filesManipulation import *
 
-mainMenu.exec()
+displayMainMenu()
 
-input()
+input("Waiting for input for debug")
 os.system("cls")
-exit()
