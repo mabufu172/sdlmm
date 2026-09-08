@@ -1,0 +1,10 @@
+SearchPaths
+        {  
+            Game                citadel/addons
+            Mod                 citadel
+            Write               citadel          
+            Game                citadel
+            Write               core
+            Mod                 core
+            Game                core        
+        }
