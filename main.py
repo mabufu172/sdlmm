@@ -1,7 +1,7 @@
 from functions import mainMenu
 import os
 
-print(mainMenu.exec())
+mainMenu.exec()
 
 input()
 os.system("cls")

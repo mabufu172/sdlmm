@@ -22,6 +22,15 @@ def exec():
 
     userinput = int(userinput)
     if userinput > 0 and userinput < 5:
-        return userinput
+        match userinput:
+            case 1:
+                print("Opens mod menu")
+            case 2:
+                print("Checks for gameinfo.gi")
+            case 3:
+                print("Opens config")
+            case 4:
+                os.system("cls")
+                exit()
     else:
         return exec()
